@@ -1,8 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;900&family=Big+Shoulders+Display:wght@900&display=swap');
+
 :root{
+    /* colors */
     --orange: #F16718;
     --light-orange:#FF9B62;
     --black: #162542;
     --gray: #7B8BAD;
     --light-gray: #E8EFF2;
     --white: #FFFFFF;
+
+    /* font sizes */
+    --large-font: 56px;
+    --big-font: 32px;
+    --middle-font: 24px;
+    --small-font: 16px;
+
+    /* line height */
+    --large-lh: 56px;
+    --big-lh: 36px;
+    --middle-lh: 28px;
+    --small-lh: 26px;
+
+    /* font weight */
+    --bold-fw: 900;
+    --normal-fw: 500;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow';
 }
