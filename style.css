@@ -11,12 +11,14 @@
 
     /* font sizes */
     --large-font: 56px;
+    --large-bit-font: 48px;
     --big-font: 32px;
     --middle-font: 24px;
     --small-font: 16px;
 
     /* line height */
     --large-lh: 56px;
+    --large-bit-lh: 48px;
     --big-lh: 36px;
     --middle-lh: 28px;
     --small-lh: 26px;
@@ -91,8 +93,8 @@ main{
 
 .main-info h1{
     color: var(--black);
-    font-size: var(--large-font);
-    line-height: var(--large-lh);
+    font-size: var(--large-bit-font);
+    line-height: var(--large-bit-lh);
     font-weight: var(--bold-fw);
     text-transform: uppercase;
 }
@@ -149,4 +151,70 @@ main img{
     height: 331px;
     border-radius: 20px 0 0 20px;    
 }
+
+/* section one mobile */
+.section-one{
+    margin-top: 20px;
+}
+
+.sec-one-container{
+    display: flex;
+}
+
+
+.img-one-box{
+    position: relative;
+}
+
+.sec-one-img-one{    
+    Width: 129px;
+    Height: 193px;
+    border-radius: 20px;
+    margin-left: -7vw;    
+}
+
+.img-one-bg{
+    position: absolute;
+    Width: 129px;
+    Height: 193px;
+    border-radius: 20px;
+    background:var(--orange);
+    opacity: 0.75;
+    top: 0vh;
+    left: -7vw;   
+}
+
+.sec-one-img-two{
+    display: inline-block;
+    width: 220px;
+    height: 193px;
+    border-radius: 20px;
+    margin-left: 18.48px;
+}
+
+.sec-one-info{
+    margin-top: 75px;
+}
+
+.sec-one-info h2{
+    text-align: center;
+    color: var(--black);
+    font-size: var(--big-font);
+    font-weight: var(--bold-fw);
+    line-height: var(--big-lh);
+    text-transform: uppercase;
+}
+
+.sec-one-info p{
+    text-align: center;
+    color: var(--gray);
+    font-size: var(--small-font);
+    font-weight: var(--normal-fw);
+    line-height: var(--small-lh);
+    margin-left: 6.4%;
+    margin-right: 6.4%;
+    margin-top: 24px;
+}
+
+/* section two */
 
