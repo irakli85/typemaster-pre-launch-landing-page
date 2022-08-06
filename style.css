@@ -144,10 +144,9 @@ main{
 
 main img{
     margin-top: 64px;
-    width: 100%;
+    width: 100%; /*372px; */
     height: 331px;
     border-radius: 20px 0 0 20px;
-       
 }
 
 /* section one mobile */
