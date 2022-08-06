@@ -52,6 +52,8 @@ header{
 header img{
     margin-left: 6.4%;
     margin-top: 34px;
+    width: 40px;
+    height: 40px;
 }
 
 header a{
@@ -75,7 +77,76 @@ header a:hover{
 
 /* main mobile */
 
-main{
+main{    
     display: flex;
+    flex-direction: column;
+    margin-left: 6.4%;
+    margin-top: 64px;
+}
+
+.main-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-info h1{
+    color: var(--black);
+    font-size: var(--large-font);
+    line-height: var(--large-lh);
+    font-weight: var(--bold-fw);
+    text-transform: uppercase;
+}
+
+.main-info p{
+    color: var(--gray);
+    font-size: var(--small-font);
+    line-height: var(--small-lh);
+    font-weight: var(--normal-fw);
+    margin-top: 32px;
+}
+
+.main-btn{
+    display: flex;
+    margin-top: 32px;
+}
+
+.main-btn a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 48px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    background: var(--orange);
+    color: var(--white);
+    font-size: var(--small-font);
+    font-weight: var(--lite-fw);
+}
+
+.main-btn a:hover{
+    background: var(--light-orange);
+}
+
+.main-btn span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 32px;
+    color: var(--gray);
+    text-transform: uppercase;
+    font-size: var(--small-font);
+    font-weight: var(--normal-fw);
+}
+
+.main-img{
+    
+}
+
+main img{
+    margin-top: 64px;
+    width: 372px;
+    height: 331px;
+    border-radius: 20px 0 0 20px;    
 }
 
