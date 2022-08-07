@@ -189,7 +189,7 @@ main{
 }
 
 .sec-one-img-two{
-    background: url('/assets/mobile/image-glass-and-keyboard.jpg');
+    background: url("./assets/mobile/image-glass-and-keyboard.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
