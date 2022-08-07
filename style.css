@@ -293,12 +293,17 @@ footer p{
     /* tablet main */
 
     main{
+        height: 425px;
+        background: url('./assets/tablet/image-keyboard.jpg');
+        background-position: left 10vw;
+        background-repeat: no-repeat;
+        margin-top: 62px;
         flex-direction: row;
         outline: solid red;
     }
 
-    main img{
-        margin-top: 0;
+    .main-img{
+        display: none;
     }
 
     main-btn a{
@@ -306,7 +311,5 @@ footer p{
         height: 58px;
     }
 
-    main img{
-        margin-left: 69px;
-    }
+    
 }
