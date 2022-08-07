@@ -50,6 +50,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 header img{
@@ -142,7 +143,10 @@ main{
     font-weight: var(--normal-fw);
 }
 
-main img{
+.main-img{
+    background: url("./assets/mobile/image-keyboard.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 64px;
     width: 100%; /*372px; */
     height: 331px;
@@ -163,7 +167,10 @@ main img{
     position: relative;
 }
 
-.sec-one-img-one{    
+.sec-one-img-one{
+    background: url("./assets/mobile/image-phone-and-keyboard.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;    
     Width: 129px;
     Height: 193px;
     border-radius: 20px;
@@ -182,6 +189,9 @@ main img{
 }
 
 .sec-one-img-two{
+    background: url('/assets/mobile/image-glass-and-keyboard.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: inline-block;
     width: 220px;
     height: 193px;
@@ -268,4 +278,35 @@ footer p{
     text-align: center;
     color: var(--gray);
     font-size: var(--small-font);    
+}
+
+/* TABLET */
+@media screen and (min-width: 768px){
+
+    /* tablet header */
+        
+    header a{
+        width: 175px;
+        height: 58px;
+    }
+
+    /* tablet main */
+
+    main{
+        flex-direction: row;
+        outline: solid red;
+    }
+
+    main img{
+        margin-top: 0;
+    }
+
+    main-btn a{
+        width: 175px;
+        height: 58px;
+    }
+
+    main img{
+        margin-left: 69px;
+    }
 }
