@@ -309,7 +309,7 @@ footer p{
         width: 42vw;
         height: 425px;
         margin-top: 0;
-        background: url(./assets/tablet/image-keyboard.jpg);
+        background: url("./assets/tablet/image-keyboard.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         margin-left: 7px;
