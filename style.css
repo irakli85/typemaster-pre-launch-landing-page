@@ -391,7 +391,7 @@ footer p{
     body{
         background: url(./assets/shared/pattern-square.svg), url(./assets/shared/pattern-square.svg);
         background-repeat: no-repeat, no-repeat;
-        background-position: top 201px left 1307px, top 942px left -127px;
+        background-position: right -10% top 13%, left -10% bottom 39%;
     }
 
     /* header desktop */
