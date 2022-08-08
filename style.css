@@ -14,6 +14,7 @@
     --large-bit-font: 48px;
     --big-font: 32px;
     --middle-font: 24px;
+    --small-bit-font: 18px;
     --small-font: 16px;
 
     /* line height */
@@ -383,4 +384,103 @@ footer p{
     }
 
     
+}
+
+@media screen and (min-width: 1440px){
+
+    body{
+        background: url(./assets/shared/pattern-square.svg), url(./assets/shared/pattern-square.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: top 20vh left 91vw, top 94vh left -5vw;
+    }
+
+    /* header desktop */
+    header img{
+        margin-left: 11.45%;
+        margin-right: 11.45%;
+        margin-top: 64px;        
+    }
+
+    header a{
+        margin-top: 64px;
+    }
+
+    /* MAIN DESKTOP */
+
+    main{
+        margin-left: 11.45%;
+        margin-top: 83px;
+    }
+
+    .main-info{
+        width: 445px;
+    }
+
+    .main-info h1{
+        font-size: var(--large-font);
+        line-height: var(--large-lh);
+    }
+
+    .main-info p{
+        font-size: var(--small-bit-font);
+        width: 445px;
+    }
+
+    .main-img{
+        width: 540px;
+        height: 480px;
+        background: url("./assets/desktop/image-keyboard.jpg");
+        background-size: cover;
+        margin-left: 125px;
+    }
+
+    /* SECTION ONE DESKTOP */
+
+    .section-one{
+        margin-left: 11.45%;
+        display: flex;
+    }
+
+    .sec-one-img-one{
+        width: 255px;
+        height: 480px;
+        background: url("./assets/desktop/image-phone-and-keyboard.jpg");
+        background-size: cover;
+    }
+
+    .img-one-bg{
+        width: 255px;
+        height: 480px;
+    }
+
+    .sec-one-img-two{
+        width: 445px;
+        height: 480px;
+    }
+
+    .sec-one-info{
+        flex-direction: column;
+        margin-left: 125px;
+    }
+
+    .sec-one-info h2{
+        text-align: left;
+        width: 255px;
+        height: 108px;        
+    }
+
+    .sec-one-info p{
+        margin-left: 0;
+        margin-top: 27px;
+        width: 255px;
+        height: 130px;
+    }
+
+    /* SECTION TWO DESKTOP */
+
+    .section-two-items{
+        flex-basis: 20%;
+        
+    }
+
 }
