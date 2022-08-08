@@ -389,7 +389,7 @@ footer p{
 @media screen and (min-width: 1440px){
 
     body{
-        background: url(./assets/shared/pattern-square.svg), url(./assets/shared/pattern-square.svg);
+        background: url("./assets/shared/pattern-square.svg"), url("./assets/shared/pattern-square.svg");
         background-repeat: no-repeat, no-repeat;
         background-position: right -10% top 13%, left -10% bottom 39%;
     }
